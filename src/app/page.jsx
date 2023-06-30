@@ -14,8 +14,8 @@ const categoryList = [
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between mt-20 bg-white rounded-2xl">
-      <div className="flex justify-start items-center w-full p-2 overflow-x-auto">
+    <div className="Mobile flex min-h-screen flex-col items-center justify-between mt-20 bg-white rounded-2xl">
+      <div className="flex items-center w-full p-2 overflow-x-auto">
         {categoryList.map((item, index) => (
           <div
             className="flex items-center flex-col flex-shrink-0 self-stretch gap-2 p-1"

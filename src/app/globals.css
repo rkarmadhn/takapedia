@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 body {
   scroll-behavior: smooth;
 }
@@ -17,29 +16,25 @@ body {
 .BtnOutlined {
   color: #146c94;
   border: 1px solid #146c94;
-
-  &:hover {
-    background-color: #146c94;
-    border: 1px solid transparent;
-    color: #fff;
-  }
+}
+.BtnOutlined:hover {
+  background-color: #146c94;
+  border: 1px solid transparent;
+  color: #fff;
 }
 
 .BtnContained {
   background-color: #146c94;
   color: #fff;
   border: 1px solid #146c94;
-
-  &:hover {
-    background: #146c94;
-    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.45) inset;
-  }
+}
+.BtnContained:hover {
+  background: #146c94;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.45) inset;
 }
 
-.MuiIconButton-root {
-  &:hover {
-    background-color: transparent;
-  }
+.MuiIconButton-root:hover {
+  background-color: transparent;
 }
 
 .Mobile,
@@ -70,9 +65,8 @@ body {
     display: block !important;
   }
 }
-
 @media (min-width: 640px) {
   .Desktop {
     display: block !important;
   }
-}
+}/*# sourceMappingURL=globals.css.map */
