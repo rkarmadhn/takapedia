@@ -55,6 +55,8 @@ body {
   -webkit-line-clamp: 2;
   color: #212121;
   text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-size: 10px;
   font-family: Inter;
   font-style: normal;

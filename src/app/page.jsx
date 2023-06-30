@@ -29,7 +29,7 @@ export default function Home() {
               width={32}
               height={32}
             />
-            <p className="typographyXs truncate">{item.name}</p>
+            <p className="typographyXs">{item.name}</p>
           </div>
         ))}
       </div>
