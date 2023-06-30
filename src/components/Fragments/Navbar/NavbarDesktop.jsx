@@ -71,8 +71,12 @@ export default function NavbarDesktop() {
             borderRightColor: "#212121 !important",
           }}
         />
-        <Button className="Btn BtnOutlined">Masuk</Button>
-        <Button className="Btn BtnContained">Daftar</Button>
+        <button type="button" className="Btn BtnOutlined">
+          Masuk
+        </button>
+        <button type="button" className="Btn BtnContained">
+          Daftar
+        </button>
       </Stack>
     </Box>
   );
